@@ -10,7 +10,7 @@
  * Permite ligar, desligar, ligar por tempo determinado,
  * piscar continuamente e piscar por quantidade definida.
  * 
- * @note O método "update()" deve ser chamdo continuamente dentro do "loop()".
+ * @note O método "update()" deve ser chamado continuamente dentro do "loop()".
  */
 class Led
 {
@@ -52,7 +52,7 @@ class Led
 
         /**
          * @brief Liga o LED por um tempo determinado.
-         * @param tempoLigado_ms Tempo, em milissegundos, que o LED ficará ligado.
+         * @param tempoLigado_ms Tempo, em milissegundos, em que o LED ficará ligado.
          */
         void ligar(uint32_t tempoLigado_ms);
 
@@ -67,13 +67,13 @@ class Led
         void piscar();
 
         /**
-         * @brief
+         * @brief 
+         * @param frequencia Frequência da piscada em Hertz.
          */
         void piscar(float frequencia);
 
         /**
-         * @brief Pisca o LED uma quantidade definida de vezes.
-         * @param frequencia Frequência da piscada em Hertz.
+         * @brief Pisca o LED na frequência desejada uma quantidade definida de vezes.
          * @param repeticoes Quantidade de piscadas completas.
          */
         void piscar(float frequencia, uint16_t repeticoes);
@@ -95,7 +95,7 @@ class Led
         void setEstado(bool estado);
 
         /**
-         * @brief Alterna o estado atual do LED para estado oposto.
+         * @brief Altera o estado atual do LED para seu estado oposto.
          */
         void alternar();
 

@@ -16,7 +16,7 @@ Versão: 1.0
 #include <LED.h>
 
 /**
- * @brief Este projeto consiste em demonstrar o funcionamento das funções: "piscar(float frequencia)", que faz com que o LED pisque por tempo indefinido continuamente com base na frequência passada pelo usuário, que neste caso é "0.10", fazendo com que o LED fique aceso por 5 segundos e apagado por 5 segundos, e "update()", que verifica e atualiza constantemente o estado do LED por meio de funções condicionais.
+ * @brief Este projeto consiste em demonstrar o funcionamento das funções: "piscar(float frequencia)", que faz com que o LED pisque por tempo indefinido continuamente com base na frequência passada pelo usuário, que neste caso é "0.10", fazendo com que o LED fique aceso por 5 segundos e apagado por 5 segundos, e "update()", que Verifica e atualiza constantemente o estado do LED por meio do uso de funções condicionais.
  */
 
 Led led1(40);

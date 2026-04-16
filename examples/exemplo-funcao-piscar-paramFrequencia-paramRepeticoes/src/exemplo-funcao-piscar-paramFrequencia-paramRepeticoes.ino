@@ -16,7 +16,7 @@ Versão: 1.0
 #include <LED.h>
 
 /**
- * @brief Este projeto consiste em demonstrar o funcionamento das funções: "piscar(float frequencia, uint16_t repeticoes)", que faz com que o LED pisque conforme a frequência e número de repetições passadas pelo usuário, e "update()", que verifica e atualiza constantemente o estado do LED por meio de funções condicionais.
+ * @brief Este projeto consiste em demonstrar o funcionamento das funções: "piscar(float frequencia, uint16_t repeticoes)", que faz com que o LED pisque conforme a frequência e número de repetições passadas pelo usuário, e "update()", que Verifica e atualiza constantemente o estado do LED por meio do uso de funções condicionais.
  */
 
 Led led1(40);

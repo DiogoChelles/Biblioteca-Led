@@ -16,7 +16,7 @@ Versão: 1.0
 #include <LED.h>
 
 /**
- * @brief Este projeto consiste em demonstrar o funcionamento das funções: "ligar(uint32_t tempoLigado_ms)", que faz o LED acender e permanecer aceso pelo tempo determinado - em milissegundos - pelo usuário, e "update()", que verifica e atualiza constantemente o estado do LED por meio de funções condicionais.
+ * @brief Este projeto consiste em demonstrar o funcionamento das funções: "ligar(uint32_t tempoLigado_ms)", que faz o LED acender e permanecer aceso pelo tempo determinado - em milissegundos - pelo usuário, e "update()", que Verifica e atualiza constantemente o estado do LED por meio do uso de funções condicionais.
  */
 
 Led led1(40);

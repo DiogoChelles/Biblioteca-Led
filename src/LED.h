@@ -10,11 +10,7 @@
  * Permite ligar, desligar, ligar por tempo determinado,
  * piscar continuamente e piscar por quantidade definida.
  * 
-<<<<<<< HEAD
- * @note O método "update()" deve ser chamdo continuamente dentro do "loop()".
-=======
  * @note O método "update()" deve ser chamado continuamente dentro do "loop()".
->>>>>>> 005da6382848020985c76621066a6a4767cba558
  */
 class Led
 {
@@ -56,11 +52,7 @@ class Led
 
         /**
          * @brief Liga o LED por um tempo determinado.
-<<<<<<< HEAD
-         * @param tempoLigado_ms Tempo, em milissegundos, que o LED ficará ligado.
-=======
          * @param tempoLigado_ms Tempo, em milissegundos, em que o LED ficará ligado.
->>>>>>> 005da6382848020985c76621066a6a4767cba558
          */
         void ligar(uint32_t tempoLigado_ms);
 
@@ -75,7 +67,7 @@ class Led
         void piscar();
 
         /**
-         * @brief 
+         * @brief Pisca o LED na frequência desejada.
          * @param frequencia Frequência da piscada em Hertz.
          */
         void piscar(float frequencia);
@@ -87,17 +79,17 @@ class Led
         void piscar(float frequencia, uint16_t repeticoes);
 
         /**
-         * @brief Descreve o estado do LED
+         * @brief Descreve o estado do LED.
          */
         bool getEstado();
 
         /**
-         * @brief Retorna o pino configurado para o LED 
+         * @brief Retorna o pino configurado para o LED.
          */
         uint8_t getPino();
 
         /**
-         * @brief Define manualmente o estado do LED
+         * @brief Define manualmente o estado do LED.
          * @param estado "true" para ligado, "false" para desligado.
          */
         void setEstado(bool estado);
@@ -108,7 +100,8 @@ class Led
         void alternar();
 
         /**
-         * @brief
+         * @brief Verifica e atualiza constantemente o estado do LED por meio do uso de funções condicionais.
+         * @note Deve ser chamado continuamente dentro de "void loop()".
          */
         void update();
 

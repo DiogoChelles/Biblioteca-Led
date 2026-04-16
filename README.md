@@ -22,60 +22,60 @@ Por isso, o método `update()` deve ser chamado repetidamente dentro do `loop()`
 BIBLIOTECA-LED/
       ├── examples/
       │   ├──exemplo-funcao-ligar/
-      │   │   ├──.vscode/
-      │   │   │   └──extensions.json
-      │   │   ├──include/
-      │   │   │   └──README
-      │   │   ├──lib/
-      │   │   │   └──README
-      │   │   ├──src/
-      │   │   │   └──exemplo-funcao-ligar.ino
-      │   │   ├──.gitignore
-      │   │   └──platformio.ini
-      │   ├──exemplo-funcao-ligar-paramTempoLigado/
-      │   │   ├──.vscode/
-      │   │   │   └──extensions.json
-      │   │   ├──include/
-      │   │   │   └──README
-      │   │   ├──lib/
-      │   │   │   └──README
-      │   │   ├──src/
-      │   │   │   └──exemplo-funcao-ligar-paramTempoLigado.ino
-      │   │   ├──.gitignore
-      │   │   └──platformio.ini
-      │   ├──exemplo-funcao-piscar/
-      │   │   ├──.vscode/
-      │   │   │   └──extensions.json
-      │   │   ├──include/
-      │   │   │   └──README
-      │   │   ├──lib/
-      │   │   │   └──README
-      │   │   ├──src/
-      │   │   │   └──exemplo-funcao-piscar.ino
-      │   │   ├──.gitignore
-      │   │   └──platformio.ini
-      │   ├──exemplo-funcao-piscar-paramFrequencia/
-      │   │   ├──.vscode/
-      │   │   │   └──extensions.json
-      │   │   ├──include/
-      │   │   │   └──README
-      │   │   ├──lib/
-      │   │   │   └──README
-      │   │   ├──src/
-      │   │   │   └──exemplo-funcao-piscar-paramFrequencia.ino
-      │   │   ├──.gitignore
-      │   │   └──platformio.ini
-      │   ├──exemplo-funcao-piscar-paramFrequencia-paramRepeticoes/
-      │   │   ├──.vscode/
-      │   │   │   └──extensions.json
-      │   │   ├──include/
-      │   │   │   └──README
-      │   │   ├──lib/
-      │   │   │   └──README
-      │   │   ├──src/
-      │   │   │   └──exemplo-funcao-piscar-paramFrequencia-paramRepeticoes.ino
-      │   │   ├──.gitignore
-      │   │   └──platformio.ini
+      │   │   ├── .vscode/
+      │   │   │   └── extensions.json
+      │   │   ├── include/
+      │   │   │   └── README
+      │   │   ├── lib/
+      │   │   │   └── README
+      │   │   ├── src/
+      │   │   │   └── exemplo-funcao-ligar.ino
+      │   │   ├── .gitignore
+      │   │   └── platformio.ini
+      │   ├── exemplo-funcao-ligar-paramTempoLigado/
+      │   │   ├── .vscode/
+      │   │   │   └── extensions.json
+      │   │   ├── include/
+      │   │   │   └── README
+      │   │   ├── lib/
+      │   │   │   └── README
+      │   │   ├── src/
+      │   │   │   └── exemplo-funcao-ligar-paramTempoLigado.ino
+      │   │   ├── .gitignore
+      │   │   └── platformio.ini
+      │   ├── exemplo-funcao-piscar/
+      │   │   ├── .vscode/
+      │   │   │   └── extensions.json
+      │   │   ├── include/
+      │   │   │   └── README
+      │   │   ├── lib/
+      │   │   │   └── README
+      │   │   ├── src/
+      │   │   │   └── exemplo-funcao-piscar.ino
+      │   │   ├── .gitignore
+      │   │   └── platformio.ini
+      │   ├── exemplo-funcao-piscar-paramFrequencia/
+      │   │   ├── .vscode/
+      │   │   │   └── extensions.json
+      │   │   ├── include/
+      │   │   │   └── README
+      │   │   ├── lib/
+      │   │   │   └── README
+      │   │   ├── src/
+      │   │   │   └── exemplo-funcao-piscar-paramFrequencia.ino
+      │   │   ├── .gitignore
+      │   │   └── platformio.ini
+      │   ├── exemplo-funcao-piscar-paramFrequencia-paramRepeticoes/
+      │   │   ├── .vscode/
+      │   │   │   └── extensions.json
+      │   │   ├── include/
+      │   │   │   └── README
+      │   │   ├── lib/
+      │   │   │   └── README
+      │   │   ├── src/
+      │   │   │   └── exemplo-funcao-piscar-paramFrequencia-paramRepeticoes.ino
+      │   │   ├── .gitignore
+      │   │   └── platformio.ini
       ├── src/
       │   ├── LED.h
       │   └── LED.cpp

@@ -32,6 +32,7 @@ BIBLIOTECA-LED/
       │   │   │   └── exemplo-funcao-ligar.ino
       │   │   ├── .gitignore
       │   │   └── platformio.ini
+      │   │
       │   ├── exemplo-funcao-ligar-paramTempoLigado/
       │   │   ├── .vscode/
       │   │   │   └── extensions.json
@@ -43,6 +44,7 @@ BIBLIOTECA-LED/
       │   │   │   └── exemplo-funcao-ligar-paramTempoLigado.ino
       │   │   ├── .gitignore
       │   │   └── platformio.ini
+      │   │
       │   ├── exemplo-funcao-piscar/
       │   │   ├── .vscode/
       │   │   │   └── extensions.json
@@ -54,6 +56,7 @@ BIBLIOTECA-LED/
       │   │   │   └── exemplo-funcao-piscar.ino
       │   │   ├── .gitignore
       │   │   └── platformio.ini
+      │   │
       │   ├── exemplo-funcao-piscar-paramFrequencia/
       │   │   ├── .vscode/
       │   │   │   └── extensions.json
@@ -65,6 +68,7 @@ BIBLIOTECA-LED/
       │   │   │   └── exemplo-funcao-piscar-paramFrequencia.ino
       │   │   ├── .gitignore
       │   │   └── platformio.ini
+      │   │
       │   ├── exemplo-funcao-piscar-paramFrequencia-paramRepeticoes/
       │   │   ├── .vscode/
       │   │   │   └── extensions.json
